@@ -1,0 +1,77 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-logo">
+      <img src="{{ '/assets/images/logo-dark.svg' | relative_url }}" alt="Re&hairsp;&hairsp;∕∕&hairsp;wire" style="max-width: 240px;"
+           data-dark="{{ '/assets/images/logo-dark.svg' | relative_url }}"
+           data-light="{{ '/assets/images/logo-light.svg' | relative_url }}">
+    </div>
+    <p class="tagline">{{ site.data.site.tagline }}</p>
+    <p class="description">{{ site.data.site.description }}</p>
+  </div>
+</section>
+
+<section class="pillar-band section--alt">
+  <div class="container">
+    <div class="pillar">
+      <div class="pillar-icon">{% include icon-research.svg %}</div>
+      <div class="pillar-content">
+        <h2>Re&hairsp;&hairsp;∕∕&hairsp;search</h2>
+        <p>
+          Members bring their own questions and run their own projects, but
+          nobody works in isolation. The collective provides what a lab normally
+          would: people to bounce ideas off, honest readers for your drafts, and
+          collaborators who genuinely care about getting it right. Each member
+          pursues their own research themes, from causality to deep learning on
+          tabular data. The point is simple: good research needs a community
+          around it, even when that community is built informally.
+        </p>
+        <a href="{{ '/research/' | relative_url }}" class="pillar-link">Research themes &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillar-band">
+  <div class="container">
+    <div class="pillar pillar--reverse">
+      <div class="pillar-icon">{% include icon-rewrite.svg %}</div>
+      <div class="pillar-content">
+        <h2>Re&hairsp;&hairsp;∕∕&hairsp;write</h2>
+        <p>
+          This covers the whole pipeline from a rough idea to a published paper.
+          Members proofread and co-author each other's work. We help navigate
+          submission, revision, and camera-ready formatting. When a member cannot
+          attend a conference in person, we try to find someone in the collective
+          who can present on their behalf. We also pursue funding collectively so
+          that cost is never the reason good work stays in a drawer.
+        </p>
+        <a href="{{ '/publications/' | relative_url }}" class="pillar-link">Publications &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillar-band section--alt">
+  <div class="container">
+    <div class="pillar">
+      <div class="pillar-icon">{% include icon-reconnect.svg %}</div>
+      <div class="pillar-content">
+        <h2>Re&hairsp;&hairsp;∕∕&hairsp;connect</h2>
+        <p>
+          A regular meetup keeps the collective alive and honest. We invite
+          outside researchers for talks, feedback, and fresh perspectives.
+          Re&hairsp;&hairsp;∕∕&hairsp;connect is also where new collaborations start: a researcher with an
+          idea meets an engineer with free evenings, or someone with access to
+          GPUs finds a project worth running on them. This is how Re&hairsp;&hairsp;∕∕&hairsp;wire grows
+          and stays dynamic.
+        </p>
+        <a href="{{ '/meetup/' | relative_url }}" class="pillar-link">The meetup &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>

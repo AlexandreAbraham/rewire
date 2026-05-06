@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p class="footer-name">{{ site.data.site.footer_text }}</p>
+      <div class="footer-links">
+        {% if site.data.site.email != "" %}
+        <a href="mailto:{{ site.data.site.email }}">Email</a>
+        {% endif %}
+        {% if site.data.site.twitter != "" %}
+        <a href="https://twitter.com/{{ site.data.site.twitter }}" target="_blank" rel="noopener">Twitter</a>
+        {% endif %}
+        {% if site.data.site.github != "" %}
+        <a href="https://github.com/{{ site.data.site.github }}" target="_blank" rel="noopener">GitHub</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>

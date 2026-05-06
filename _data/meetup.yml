@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────
+# Re:wire Meetup — Configuration
+# ──────────────────────────────────────────────
+
+description: >
+  The Re:wire Meetup is a regular gathering for researchers, thinkers,
+  and curious minds. We discuss ongoing work, host talks, and explore
+  new ideas in an informal setting.
+
+# Schedule
+frequency: "Monthly"
+location: "TBD"
+time: "TBD"
+
+# Links (leave empty to hide)
+signup_url: ""
+calendar_url: ""
+
+# Upcoming events
+# - title: "Talk Title"
+#   speaker: "Speaker Name"
+#   date: "2026-06-01"
+#   description: "Brief description."
+upcoming: []
+
+# Past events
+past: []

@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────
+# Re//wire — Members
+# Add new members by copying the template below.
+# ──────────────────────────────────────────────
+#
+# - name: "Full Name"
+#   role: "Researcher | Collaborator | etc."
+#   bio: "Short biography."
+#   photo: "/assets/images/members/name.png"   (optional)
+#   website: "https://example.com"             (optional)
+#   scholar: "https://scholar.google.com/..."  (optional)
+#   github: "https://github.com/..."           (optional)
+# ──────────────────────────────────────────────
+
+- name: "Alexandre Abraham"
+  role: "Founding Researcher & Convenor"
+  bio: "Works on causality, tabular deep learning, and getting the methodology right. Previously worked on neuroimaging and machine learning."
+  photo: "/assets/images/members/alexandre-abraham.png"
+  website: "https://twinee.fr"
+  scholar: "https://scholar.google.com/citations?user=__-U_CcAAAAJ"
+  github: "https://github.com/AlexandreAbraham"

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="container">
+  <div class="page-header">
+    <h1>Publications</h1>
+    <p>Papers, preprints, and other contributions from Re&hairsp;&hairsp;∕∕&hairsp;wire members.</p>
+  </div>
+
+  <section class="section">
+    {% if site.data.publications.size > 0 %}
+    <ul class="pub-list">
+      {% assign sorted = site.data.publications | sort: "year" | reverse %}
+      {% for pub in sorted %}
+      <li class="pub-item">
+        <div class="pub-title">
+          {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+        </div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">{{ pub.venue }}, {{ pub.year }}</div>
+        {% if pub.url or pub.pdf or pub.code %}
+        <div class="pub-links">
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+          {% if pub.code %}<a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        </div>
+        {% endif %}
+        {% if pub.tags %}
+        <div class="pub-tags">
+          {% for tag in pub.tags %}<span class="pub-tag">{{ tag }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-state">Publications will appear here as the lab produces work.</p>
+    {% endif %}
+  </section>
+</div>

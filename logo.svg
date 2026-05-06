@@ -1,0 +1,28 @@
+<svg width="1600" height="800" viewBox="0 0 1600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="800" fill="white"/>
+
+  <defs>
+    <style>
+      .logo-text {
+        font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 300;
+      }
+    </style>
+    <!-- Horizontal clip: flat top and bottom -->
+    <clipPath id="slash-clip">
+      <rect x="500" y="270" width="200" height="270"/>
+    </clipPath>
+  </defs>
+
+  <!-- Re -->
+  <text class="logo-text" x="337" y="455" font-size="220" fill="#111111">Re</text>
+
+  <!-- wire -->
+  <text class="logo-text" x="660" y="490" font-size="220" fill="#111111">wire</text>
+
+  <!-- Two red slashes: clipped horizontally for flat top/bottom -->
+  <g stroke="#E02020" stroke-width="14" stroke-linecap="butt" clip-path="url(#slash-clip)">
+    <line x1="670" y1="200" x2="540" y2="610"/>
+    <line x1="707" y1="200" x2="577" y2="610"/>
+  </g>
+</svg>

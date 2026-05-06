@@ -1,0 +1,35 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="container">
+  <div class="page-header">
+    <h1>Research Themes</h1>
+    <p>Each member brings their own research directions. Themes grow as the collective grows.</p>
+  </div>
+
+  <section class="section">
+    {% if site.data.research.size > 0 %}
+    <div class="card-grid">
+      {% for theme in site.data.research %}
+      <div class="card">
+        <h3>{{ theme.title }}</h3>
+        {% if theme.member %}<div class="card-member">{{ theme.member }}</div>{% endif %}
+        <p>{{ theme.description }}</p>
+        {% if theme.papers %}
+        <ul class="card-papers">
+          {% for paper in theme.papers %}
+          <li>{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">Research themes will appear here as members join.</p>
+    {% endif %}
+  </section>
+</div>

@@ -1,0 +1,20 @@
+# ──────────────────────────────────────────────
+# Re:wire Lab — Publications
+# Add new publications by copying the template below.
+# They will appear in reverse chronological order.
+# ──────────────────────────────────────────────
+#
+# - title: "Paper Title"
+#   authors: "A. Author, B. Author, C. Author"
+#   venue: "Conference or Journal Name"
+#   year: 2026
+#   url: "https://doi.org/..."         (optional)
+#   pdf: "/assets/papers/paper.pdf"    (optional)
+#   code: "https://github.com/..."     (optional)
+#   abstract: "Short abstract."        (optional)
+#   tags:                              (optional)
+#     - "topic1"
+#     - "topic2"
+# ──────────────────────────────────────────────
+
+# Publications will appear here as the lab produces work.

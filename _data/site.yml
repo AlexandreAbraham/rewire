@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────
+# Re:wire — global site configuration
+# Edit this file to change site-wide settings.
+# ──────────────────────────────────────────────
+
+name: "Re:wire"
+tagline: "Reframe. Resolve. Rewire."
+description: >
+  Re&hairsp;&hairsp;∕∕&hairsp;wire is an independent research collective for people doing
+  research on their own time. We share resources, review each
+  other's work, pursue funding for compute and conferences, and
+  build the connections that make serious research possible
+  outside of a day job.
+
+# What we do — displayed as a list on the homepage
+goals:
+  - "Discuss, motivate, and proofread each other's work — like a real lab."
+  - "Pool funding for compute and conference attendance."
+  - "Provide a research affiliation for members' publications."
+  - "Connect with established researchers for ideas, guidance, and conference representation."
+
+email: ""
+twitter: ""
+github: ""
+
+# Navigation links (label -> url)
+nav:
+  - label: Home
+    url: /
+  - label: Research
+    url: /research/
+  - label: Publications
+    url: /publications/
+  - label: Members
+    url: /members/
+  - label: Meetup
+    url: /meetup/
+  - label: Join
+    url: /join/
+
+# Footer
+footer_text: "Re&hairsp;&hairsp;∕∕&hairsp;wire Research Collective"

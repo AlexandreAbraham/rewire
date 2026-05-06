@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Page outline, subtle -->
+  <rect x="30" y="10" width="140" height="180" rx="4" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Text lines, varying lengths for realism -->
+  <line x1="45" y1="42" x2="155" y2="42" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+  <line x1="45" y1="70" x2="148" y2="70" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+  <line x1="45" y1="98" x2="155" y2="98" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+  <line x1="45" y1="126" x2="140" y2="126" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+  <!-- Last line, incomplete -->
+  <line x1="45" y1="154" x2="100" y2="154" stroke="currentColor" stroke-width="2" opacity="0.55"/>
+
+  <!-- Pen: 45° from end of last line -->
+  <line x1="114" y1="150" x2="150" y2="114" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="150" cy="114" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+
+</svg>

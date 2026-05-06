@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">Re:wire logo</title>
+  <desc id="desc">Minimal wordmark reading Re:wire with hollow colon, hollow i dot, dashed underline under Re: and solid underline under wire.</desc>
+
+  <defs>
+    <style>
+      .wordmark {
+        font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="320" fill="#FFFFFF"/>
+
+  <g transform="translate(100 60)">
+    <!-- Re -->
+    <text class="wordmark" x="0" y="160" font-size="150" fill="#0B3B68">Re</text>
+
+    <!-- Hollow colon -->
+    <circle cx="215" cy="104.5" r="12" fill="none" stroke="#0B3B68" stroke-width="4"/>
+    <circle cx="215" cy="148" r="12" fill="none" stroke="#0B3B68" stroke-width="4"/>
+
+    <!-- w -->
+    <text class="wordmark" x="256" y="160" font-size="150" fill="#283038">wire</text>
+
+    <!-- custom i: stem from x-height to baseline + hollow dot -->
+    <line x1="386.6" y1="62" x2="386.6" y2="158" stroke="#283038" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="386.6" cy="62" r="12" fill="white" stroke="#283038" stroke-width="4"/>
+
+    <!-- Split underline: dashed under Re:, solid under wire -->
+    <line x1="0" y1="200" x2="228" y2="200" stroke="#0B3B68" stroke-width="5" stroke-linecap="butt" stroke-dasharray="27 13"/>
+    <line x1="240" y1="200" x2="548" y2="200" stroke="#0B3B68" stroke-width="5" stroke-linecap="butt"/>
+  </g>
+</svg>

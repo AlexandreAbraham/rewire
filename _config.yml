@@ -1,0 +1,28 @@
+# Re:wire Research Lab
+title: "Re:wire"
+description: "Re:wire Research Lab"
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Include pages from _pages directory
+include:
+  - _pages
+
+# Collections (if needed later)
+collections_dir: .
+
+# Default front matter
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag

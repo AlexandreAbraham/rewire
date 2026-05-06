@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- People gathering: abstract figures around a shared space -->
+  <!-- Central shared circle -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Person top -->
+  <circle cx="100" cy="30" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="100" y1="40" x2="100" y2="70" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Person bottom-left -->
+  <circle cx="40" cy="150" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="40" y1="160" x2="40" y2="185" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="48" y1="142" x2="75" y2="122" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <!-- Person bottom-right -->
+  <circle cx="160" cy="150" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="160" y1="160" x2="160" y2="185" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="152" y1="142" x2="125" y2="122" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <!-- Person left -->
+  <circle cx="25" cy="80" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="25" y1="90" x2="25" y2="120" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="35" y1="82" x2="70" y2="95" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <!-- Person right -->
+  <circle cx="175" cy="80" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="175" y1="90" x2="175" y2="120" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="165" y1="82" x2="130" y2="95" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <!-- Small dots in center to show activity -->
+  <circle cx="92" cy="96" r="3" fill="currentColor"/>
+  <circle cx="108" cy="96" r="3" fill="currentColor"/>
+  <circle cx="100" cy="108" r="3" fill="currentColor"/>
+</svg>
