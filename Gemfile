@@ -1,7 +1,3 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4"
-gem "jekyll-seo-tag"
-gem "webrick"
-gem "csv"
-gem "base64"
+gem "github-pages", group: :jekyll_plugins
