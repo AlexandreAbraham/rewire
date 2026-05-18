@@ -7,3 +7,4 @@ Gemfile.lock
 .DS_Store
 logo-fonts.svg
 ChatGPT*.png
+.wrangler/
